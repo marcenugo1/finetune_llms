@@ -34,8 +34,6 @@ Phi 2
 Eval: phi_eval2.ipynb
 Finetune:phi_2_finetune.ipynb
 
-For Metric Evaluation documentantion please refer to file: 
-
 ### Datasets
 
 - Dataset used for fine tuning with python code: [Dataset](https://huggingface.co/datasets/flytech/python-codes-25k)
