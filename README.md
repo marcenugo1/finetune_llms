@@ -14,6 +14,9 @@ Instructions to install libraries using *requirements.txt* file.
 
 ```shell
 cd FineTune 
+conda create -n finetune python=3.10 -y
+conda activate finetune
+conda install pytorch torchvision torchaudio pytorch-cuda=11.8 -c pytorch -c nvidia
 pip install -r requirements.txt
 ```
 
